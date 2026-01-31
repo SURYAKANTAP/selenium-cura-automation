@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="CURA Automation Suite">
+
+    <listeners>
+        <listener class-name="com.cura.reports.TestListener"/>
+    </listeners>
+
+    <test name="Regression Tests">
+        <packages>
+            <package name="com.cura.tests"/>
+        </packages>
+    </test>
+
+</suite>

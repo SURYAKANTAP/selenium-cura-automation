@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2026-01-14T15:44:06 IST" name="CURA Automation Suite" finished-at="2026-01-14T15:44:42 IST" duration-ms="35979">
+    <groups>
+    </groups>
+    <test started-at="2026-01-14T15:44:06 IST" name="Regression Tests" finished-at="2026-01-14T15:44:42 IST" duration-ms="35979">
+      <class name="com.cura.tests.AppointmentTest">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cura.tests.AppointmentTest@17d919b6]" started-at="2026-01-14T15:44:07 IST" name="setUp" finished-at="2026-01-14T15:44:19 IST" duration-ms="11635" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bookAppointmentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cura.tests.AppointmentTest@17d919b6]" started-at="2026-01-14T15:44:19 IST" name="bookAppointmentTest" data-provider="appointmentData" finished-at="2026-01-14T15:44:23 IST" duration-ms="4359" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Tokyo CURA Healthcare Center]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Medicare]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[10/10/2025]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Regular health checkup]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAppointmentTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cura.tests.AppointmentTest@17d919b6]" started-at="2026-01-14T15:44:23 IST" name="tearDown" finished-at="2026-01-14T15:44:23 IST" duration-ms="336" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cura.tests.AppointmentTest@17d919b6]" started-at="2026-01-14T15:44:23 IST" name="setUp" finished-at="2026-01-14T15:44:29 IST" duration-ms="5980" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bookAppointmentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cura.tests.AppointmentTest@17d919b6]" started-at="2026-01-14T15:44:29 IST" name="bookAppointmentTest" data-provider="appointmentData" finished-at="2026-01-14T15:44:33 IST" duration-ms="4059" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Hongkong CURA Healthcare Center]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[No]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Medicaid]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[15/10/2025]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[Follow-up visit]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAppointmentTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cura.tests.AppointmentTest@17d919b6]" started-at="2026-01-14T15:44:33 IST" name="tearDown" finished-at="2026-01-14T15:44:34 IST" duration-ms="216" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cura.tests.AppointmentTest@17d919b6]" started-at="2026-01-14T15:44:34 IST" name="setUp" finished-at="2026-01-14T15:44:38 IST" duration-ms="4419" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="bookAppointmentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cura.tests.AppointmentTest@17d919b6]" started-at="2026-01-14T15:44:38 IST" name="bookAppointmentTest" data-provider="appointmentData" finished-at="2026-01-14T15:44:42 IST" duration-ms="3616" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Seoul CURA Healthcare Center]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[Yes]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[None]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[20/10/2025]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[First-time appointment]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bookAppointmentTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cura.tests.AppointmentTest@17d919b6]" started-at="2026-01-14T15:44:42 IST" name="tearDown" finished-at="2026-01-14T15:44:42 IST" duration-ms="326" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.cura.tests.AppointmentTest -->
+    </test> <!-- Regression Tests -->
+  </suite> <!-- CURA Automation Suite -->
+</testng-results>
