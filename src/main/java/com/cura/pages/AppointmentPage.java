@@ -2,7 +2,6 @@ package com.cura.pages;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor; // Imported this
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
@@ -24,7 +23,6 @@ public class AppointmentPage {
     private final By visitDateInput = By.id("txt_visit_date");
     private final By commentBox     = By.id("txt_comment");
     
-    private final By pageBody       = By.tagName("body"); 
 
     private final By bookAppointmentBtn = By.id("btn-book-appointment");
 

@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-02-15T06:56:26 IST" name="CURA Automation Suite" finished-at="2026-02-15T06:56:51 IST" duration-ms="24319">
+  <suite started-at="2026-02-15T07:37:39 IST" name="CURA Automation Suite" finished-at="2026-02-15T07:38:02 IST" duration-ms="23129">
     <groups>
     </groups>
-    <test started-at="2026-02-15T06:56:26 IST" name="Regression Tests" finished-at="2026-02-15T06:56:51 IST" duration-ms="24319">
+    <test started-at="2026-02-15T07:37:39 IST" name="Regression Tests" finished-at="2026-02-15T07:38:02 IST" duration-ms="23129">
       <class name="com.cura.tests.AppointmentTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T06:56:27 IST" name="setUp" finished-at="2026-02-15T06:56:34 IST" duration-ms="7060" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T07:37:39 IST" name="setUp" finished-at="2026-02-15T07:37:45 IST" duration-ms="5466" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="bookAppointmentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T06:56:34 IST" name="bookAppointmentTest" data-provider="appointmentData" finished-at="2026-02-15T06:56:37 IST" duration-ms="2706" status="PASS">
+        <test-method signature="bookAppointmentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T07:37:45 IST" name="bookAppointmentTest" data-provider="appointmentData" finished-at="2026-02-15T07:37:47 IST" duration-ms="2593" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -42,15 +42,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookAppointmentTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T06:56:37 IST" name="tearDown" finished-at="2026-02-15T06:56:37 IST" duration-ms="176" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T07:37:47 IST" name="tearDown" finished-at="2026-02-15T07:37:48 IST" duration-ms="178" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T06:56:37 IST" name="setUp" finished-at="2026-02-15T06:56:41 IST" duration-ms="4332" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T07:37:48 IST" name="setUp" finished-at="2026-02-15T07:37:52 IST" duration-ms="4674" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="bookAppointmentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T06:56:41 IST" name="bookAppointmentTest" data-provider="appointmentData" finished-at="2026-02-15T06:56:43 IST" duration-ms="2352" status="PASS">
+        <test-method signature="bookAppointmentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T07:37:52 IST" name="bookAppointmentTest" data-provider="appointmentData" finished-at="2026-02-15T07:37:55 IST" duration-ms="2445" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -81,15 +81,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookAppointmentTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T06:56:43 IST" name="tearDown" finished-at="2026-02-15T06:56:44 IST" duration-ms="179" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T07:37:55 IST" name="tearDown" finished-at="2026-02-15T07:37:55 IST" duration-ms="185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T06:56:44 IST" name="setUp" finished-at="2026-02-15T06:56:48 IST" duration-ms="4268" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T07:37:55 IST" name="setUp" finished-at="2026-02-15T07:37:59 IST" duration-ms="4495" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="bookAppointmentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T06:56:48 IST" name="bookAppointmentTest" data-provider="appointmentData" finished-at="2026-02-15T06:56:50 IST" duration-ms="2509" status="PASS">
+        <test-method signature="bookAppointmentTest(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T07:37:59 IST" name="bookAppointmentTest" data-provider="appointmentData" finished-at="2026-02-15T07:38:02 IST" duration-ms="2418" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,7 +120,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- bookAppointmentTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T06:56:50 IST" name="tearDown" finished-at="2026-02-15T06:56:51 IST" duration-ms="192" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.cura.tests.AppointmentTest@55e7a35c]" started-at="2026-02-15T07:38:02 IST" name="tearDown" finished-at="2026-02-15T07:38:02 IST" duration-ms="171" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
