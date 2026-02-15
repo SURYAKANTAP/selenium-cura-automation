@@ -9,6 +9,7 @@
         <packages>
             <package name="com.cura.tests"/>
         </packages>
+         
     </test>
 
 </suite>

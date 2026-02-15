@@ -66,13 +66,16 @@ public class AppointmentTest extends BaseTest {
 
         ConfirmationPage confirmationPage =
                 new ConfirmationPage(driver).waitForPageToLoad();
+        
+        
 
         String header = confirmationPage.getHeaderText();
 
         Assert.assertEquals(
-               header,
-                "Make Appointment"
-        );
+        	    header,
+        	    "Appointment Confirmation",
+        	    "Actual header text was: [" + header + "]"
+        	);
         System.out.println("Appointment booked successfully. Confirmation message: "
                 + header);
     }

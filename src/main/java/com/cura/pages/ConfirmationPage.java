@@ -8,21 +8,21 @@ public class ConfirmationPage {
 
     private final WaitUtils wait;
 
-    // Single source of truth for locator
-    private final By confirmationHeader = By.tagName("h2");
+    private final By confirmationHeader =
+            By.cssSelector("section#summary h2");
 
     public ConfirmationPage(WebDriver driver) {
         this.wait = new WaitUtils(driver);
     }
 
-    // Page readiness check
     public ConfirmationPage waitForPageToLoad() {
+        // THIS IS THE KEY FIX
+        wait.urlContains("appointment.php#summary");
         wait.visible(confirmationHeader);
         return this;
     }
 
-    // Data retrieval (no direct element access)
     public String getHeaderText() {
-        return wait.visible(confirmationHeader).getText();
+        return wait.visible(confirmationHeader).getText().trim();
     }
 }
